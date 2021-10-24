@@ -1,0 +1,36 @@
+{
+  "name": "WiseUpdated",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "lodash": "^4.17.21",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-indicators": "^0.17.0",
+    "react-native-raw-bottom-sheet": "^2.2.0",
+    "react-viro": "2.17.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
